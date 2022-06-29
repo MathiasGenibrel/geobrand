@@ -2,7 +2,7 @@ import React from "react";
 
 import * as Styled from "./Header.styles";
 
-export const Header = () => {
+const Header = () => {
   return (
     <Styled.Header>
       <h1>GEOBRAND</h1>
@@ -16,3 +16,5 @@ export const Header = () => {
     </Styled.Header>
   );
 };
+
+export default Header;
