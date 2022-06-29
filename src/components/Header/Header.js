@@ -1,0 +1,18 @@
+import React from "react";
+
+import * as Styled from "./Header.styles";
+
+export const Header = () => {
+  return (
+    <Styled.Header>
+      <h1>GEOBRAND</h1>
+      <nav>
+        <ul>
+          <li>Support</li>
+          <li>Langue</li>
+          <li>Vos favories</li>
+        </ul>
+      </nav>
+    </Styled.Header>
+  );
+};
